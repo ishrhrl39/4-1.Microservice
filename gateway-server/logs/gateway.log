@@ -1,0 +1,67 @@
+2023-03-14T21:28:44.620+09:00  INFO 17204 --- [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-03-14T21:28:45.443+09:00  INFO 17204 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5b4afc66-4be8-3568-8ac3-792502674812
+2023-03-14T21:28:45.506+09:00  INFO 17204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-14T21:28:45.507+09:00  INFO 17204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-14T21:28:45.516+09:00  INFO 17204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-14T21:28:46.455+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-14T21:28:46.456+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-14T21:28:46.456+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-14T21:28:46.456+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-03-14T21:28:46.457+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-14T21:28:46.458+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-03-14T21:28:46.458+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-14T21:28:46.458+09:00  INFO 17204 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-14T21:28:47.092+09:00  INFO 17204 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-03-14T21:28:47.319+09:00  INFO 17204 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-14T21:28:47.352+09:00  WARN 17204 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-14T21:28:47.410+09:00  INFO 17204 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-14T21:28:47.446+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-14T21:28:47.452+09:00  INFO 17204 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-14T21:28:47.474+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-14T21:28:47.977+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-14T21:28:47.980+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-14T21:28:47.982+09:00  INFO 17204 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-14T21:28:47.988+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1678796927987 with initial instances count: 0
+2023-03-14T21:28:47.990+09:00  INFO 17204 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2023-03-14T21:28:47.991+09:00  INFO 17204 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678796927991, current=UP, previous=STARTING]
+2023-03-14T21:28:47.992+09:00  INFO 17204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9:gateway-server:8070: registering service...
+2023-03-14T21:28:48.108+09:00  INFO 17204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9:gateway-server:8070 - registration status: 204
+2023-03-14T21:28:48.248+09:00  INFO 17204 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070
+2023-03-14T21:28:48.250+09:00  INFO 17204 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-03-14T21:28:48.549+09:00  INFO 17204 --- [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 5.469 seconds (process running for 6.276)
+2023-03-14T21:29:00.326+09:00  WARN 17204 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-03-14T21:29:09.058+09:00  WARN 17204 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-03-14T21:29:17.991+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-03-14T21:29:17.992+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-14T21:29:18.000+09:00  INFO 17204 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-14T21:29:24.588+09:00  INFO 17204 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: 6e139d21-3, method: POST , url: http://localhost:8070/v1/item/add/C
+2023-03-14T21:29:24.604+09:00  INFO 17204 --- [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: 6e139d21-3, request body :{
+    "id" : "1",
+    "name" : "item1",
+    "description" : "item description1",
+    "count" : 100
+}
+2023-03-14T21:29:25.304+09:00  INFO 17204 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: 6e139d21-3, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"success"}
+2023-03-14T21:31:08.446+09:00  INFO 17204 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-14T21:31:08.447+09:00  INFO 17204 --- [RMI TCP Connection(8)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2023-03-14T21:31:08.448+09:00  INFO 17204 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678797068448, current=DOWN, previous=UP]
+2023-03-14T21:31:08.448+09:00  INFO 17204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9:gateway-server:8070: registering service...
+2023-03-14T21:31:08.454+09:00  INFO 17204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9:gateway-server:8070 - registration status: 204
